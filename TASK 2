@@ -1,0 +1,21 @@
+print("1)")
+a=b=c=50
+division = a/10
+multiplication = b*50
+addition = c+60
+print("a) Divide a by 10 = " ,division)
+print("b) Multiply c by 50 = " ,multiplication)
+print("c) Add c by 60 = " ,addition)
+
+print("2)")
+x= str("ENTRY")
+print(x)
+print(x.replace("T", "G") )
+
+print("3)")
+a=int(10)
+b=float(7.0)
+print(a)
+print(float(a))
+print(b)
+print(int(b))
