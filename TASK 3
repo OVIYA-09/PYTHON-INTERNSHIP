@@ -1,0 +1,33 @@
+print("1)")
+D1={"A": 5 , "B": 4}
+D2={"C": 3 , "D": 7}
+print("DICTIONARY 1 :",D1)
+print("DICTIONARY 2 :",D2)
+D1.update(D2)
+print("MERGED DICTIONARY :",D1)
+
+print("2)")
+D3= {"E":"EGG" , "F":"FLASH" , "G":"GIRL"}
+print("DICTIONARY 3 :",D3)
+D3.pop("F")
+print("AFTER REMOVING A KEY :",D3)
+
+print("3)")
+LIST1 = ['R', 'G', 'B']
+LIST2 = ['RUN','GO', 'BURN']
+print("LIST1 :",LIST1)
+print("LIST2 :",LIST2)
+D4 = dict(zip(LIST1, LIST2))
+print("MAPPED LISTS :",D4)
+
+print("4)")
+SET1 = set([1,2,3,4])
+print("SET : ",SET1)
+print("LENGTH OF THE SET :", len(SET1))
+
+print("5)")
+SET2 = {1,2,3,4,5}
+SET3 = {4,5,6,7,8}
+print("FIRST SET :",SET2)
+print("SECOND SET :",SET3)
+print("Remove the intersection of a SECOND SET from the FIRST SET:",SET2-SET3)
