@@ -1,0 +1,32 @@
+print("1.")
+print("ENTER THE  NUMBER OF ELEMENTS IN LIST ")
+L= int(input(""))
+LIST= list(range(0,L))
+print("LIST :",LIST)
+
+LIST.append(7)
+print("LIST AFTER ADDING 7: ")
+print(LIST)
+
+LIST.remove(2)
+print("LIST AFTER DELETING 2: ")
+print(LIST)
+    
+LARGEST= max(LIST)
+print("LARGEST :",LARGEST)
+SMALLEST= min(LIST)
+print("SMALLEST :",SMALLEST)
+
+print("2.")
+TUPLE1 = (2,"HELLO",5,1)
+print("TUPLE :",TUPLE1)
+REV= reversed(TUPLE1)
+print("REVERSED TUPLE:",tuple(REV))
+
+print("3.")
+TUPLE2 = (2,6,4,5,1)
+print("TUPLE :",TUPLE2)
+LIST2=list(TUPLE2)
+print("TUPLE CONVERTED TO LIST :",LIST2)
+
+
