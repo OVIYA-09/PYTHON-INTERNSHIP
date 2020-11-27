@@ -1,0 +1,21 @@
+print("1)")
+def arithematic(x,y):
+    ADD= x+y
+    SUB= x-y
+    DIV= x/y
+    MUL= x*y
+    print("ADDITION",ADD)
+    print("SUBTRACTION",SUB)
+    print("DIVISION",DIV)
+    print("MULTIPLICATION",MUL)
+a=int(input("ENTER A POSITIVE NUMBER X:"))
+b=int(input("ENTER A POSITVE NUMBER LESS THAN X:"))
+print(arithematic(a,b))
+
+print("2)")
+NAME= input("ENTER THE PATIENT NAME :")
+TEMPT= 98
+def covid(NAME,TEMPT):
+    print("THE NAME OF THE PATIENT IS ",NAME,"AND BODY TEMPERATURE IS",TEMPT)
+
+print(covid(NAME,TEMPT))
