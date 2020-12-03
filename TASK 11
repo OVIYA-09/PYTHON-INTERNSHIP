@@ -1,0 +1,24 @@
+print("1.")    
+list1 = ["apple", "butter", "camera"] 
+list2 = ['a', 'b', 'c']
+print("list2 :",list1)
+print("list1 :",list2)
+print(list(zip(list1, list2)))
+
+print("2.")
+range1= list (range(1,8))
+list1=["HAND","HEAD","LEG","NECK","FOOT","HIP","THIGH"]
+print("LIST:",list1)
+x=list(zip(range1,list1))
+print(x)
+
+print("3.")
+L=[3,2,1,4,6,5]
+print("UNSORTED LIST:",L)
+print("SORTED LIST:",sorted(L))
+
+print("4.")
+lis1 = [1,2,3,4,5] 
+is_even = lambda x: x % 2 == 0
+lis2 = list(filter(is_even, lis1)) 
+print(lis2) 
